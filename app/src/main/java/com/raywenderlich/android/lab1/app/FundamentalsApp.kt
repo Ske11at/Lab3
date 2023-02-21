@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
 import com.raywenderlich.android.lab1.screens.*
+import com.raywenderlich.android.lab1.screenslertDialog.ColumnScreen
 
 @Composable
 fun FundamentalsApp() {
@@ -19,6 +20,11 @@ fun FundamentalsApp() {
                 is Screen.Buttons -> ExploreButtonsScreen()
                 is Screen.ProgressIndicator -> ProgressIndicatorScreen()
                 is Screen.AlertDialog -> AlertDialogScreen()
+                is Screen.Row -> RowScreen()
+                is Screen.Column -> ColumnScreen()
+                is Screen.Box -> BoxScreen()
+                is Screen.Surface ->SurfaceScreen()
+                is Screen.Scaffold ->ScaffoldScreen()
             }
         }
     }
