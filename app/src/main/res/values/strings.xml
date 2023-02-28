@@ -22,4 +22,14 @@
     <string name="third">Третий</string>
     <string name="Menu">Menu</string>
     <string name="MyComposeApp">MyComposeApp</string>
+    <string name="MyScrollingScreen">Screen</string>
+    <string name="android"> Android </string>
+    <string name="kotlin"> Kotlin </string>
+    <string name="swift"> Swift </string>
+    <string name="ios"> IOS </string>
+    <string name="one"> Усовершенствованная архитекрура Android </string>
+    <string name="two"> Изучение Cotlin </string>
+    <string name="three">Grid </string>
+    <string name="book"> Книги </string>
+    <string name="grid_icon"> Икона </string>
 </resources>
